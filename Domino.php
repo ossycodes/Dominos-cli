@@ -13,9 +13,6 @@ use App\Implementations\{Board, Bone, Boneyard, CliOutput, Player, Test};
 
 $player1 = new Player("Alice");
 $player2 = new Player("Bob");
-$bone1 = new Bone(1, 2);
-$bone2 = new Bone(2, 4);
-$aliceBone = new Bone(1, 5);
 $boneyard = new Boneyard();
 $board = new Board();
 $clioutput = new CliOutput();
