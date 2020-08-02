@@ -1,0 +1,19 @@
+{
+  "name": "osscodes/domino",
+  "authors": [
+    {
+      "name": "Osaigbovo Emmanuel",
+      "email": "osaigbovoemmanuel1@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require-dev": {
+  },
+  "require": {
+    "league/climate": "^3.5"
+  }
+}
